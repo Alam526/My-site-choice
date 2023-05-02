@@ -1,0 +1,393 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", "Helvetica", "Arial",sans-serif;
+	height:100vh;
+	width:100vw;
+}
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width: 100%;
+	background: url("https://gamerwall.pro/uploads/posts/2022-03/1648710748_1-gamerwall-pro-p-fon-na-temu-priroda-krasivie-1.jpg")no-repeat;
+	background-size: cover;
+	
+}
+.form-box {
+	position: relative;
+	width: 400px;
+	height: 570px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	backdrop-filter: blur(15px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h2 {
+	font-size: 2em;
+	color: #fff;
+	margin-top: 20px;
+	text-align: center;
+}
+.inputbox {
+	position: relative;
+	margin: 30px 0;
+	width: 310px;
+	border-bottom: 2px solid #fff;
+}
+.inputbox label {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	color: #fff;
+	font-size: 1em;
+	pointer-events: none;
+	transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+	top: -5px;
+}
+.inputbox input {
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 1em;
+	padding: 35px 0 5px;
+	color: #fff;
+}
+.inputbox ion-icon {
+	position: absolute;
+	right: 8px;
+	color: #fff;
+	font-size: 1.2em;
+	top: 60px;	
+}
+.forget {
+	margin: -15px 0 -15px;
+	font-size: .9em;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+}
+.forget label input{
+	margin-right: 3px;	
+}
+.password {
+	color: #fff;
+	text-decoration: none;
+}
+.password:hover {
+	text-decoration: underline;
+}
+button {
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	border-radius: 40px;
+	background: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+button:hover {
+	background:  #e6e6e6;
+}
+.register {
+	font-size: .9em;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0 10px;
+}
+.style {
+	position: relative;
+	z-index: 1;
+}
+.register-1 a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+.register .register-1 a:hover {
+	text-decoration: underline;
+}
+button ion-icon {
+	color: blue;
+	height: 20px;
+	width: 20px;
+	padding-right: 30px;
+}
+button img {
+	padding-right: 15px;
+	padding-bottom: 3px;
+}
+.header {
+	position: relative;
+	z-index: 1 ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	height: 155px;
+	line-height: 100px;
+	background-color: black;
+}
+.nav-list li  {
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.style-button a{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	background-color: #dd3d53;
+	border-radius: 3px;
+	transition: all .25s ease;
+}
+.style-button :hover{
+	background-color: #c9233a;
+}
+.style-button li {
+	padding-right: 0;
+}
+::selection {
+	color: white;
+	background: red;
+}
+.logo {
+	height: 140px;
+	weight: 100px;
+}
+.bor-1 {
+	text-decoration: none;
+	color: inherit;
+}
+.bor-1:hover {
+	background-color: #fff;
+	color: black;
+	transition: all .25s ease;
+}
+.bor-5 {
+	font-size: 14px;
+	text-decoration: none;
+	color: inherit;
+}
+.div-decor {
+	font-size: 14px;
+	text-decoration: none;
+	color: inherit;
+} 
+.bor {
+	text-decoration: none;
+	color: inherit;
+}
+.bor-4 {
+	text-decoration: none;
+	color: inherit;
+	bottom: -30px;
+}
+.bor-4:hover {
+	background-color: #fff;
+	color: black;
+	transition: all .25s ease;
+}
+.bor-2 {
+	text-decoration: none;
+	color: inherit;
+	bottom: -60px;
+}
+.bor-2:hover {
+	background-color: #fff;
+	color: black;
+	transition: all .25s ease;
+}
+.bor-3 {
+	text-decoration: none;
+	color: inherit;
+	bottom: -90px;
+}
+.bor-3:hover {
+	background-color: #fff;
+	color: black;
+	transition: all .25s ease;
+}
+.none {
+	display: none;
+}
+.nav-list li:hover > .none{
+	display: block;
+}
+.abuse{
+	color: #bfbfbf;
+}
+.drop-list {
+	position: absolute;
+	left: 600px;
+	height: 120px;
+	display: block;
+	line-height: 2;
+	top: 80px;
+	background-color: grey;
+}
+.drop-list-2 {
+	position: absolute;
+	left: 690px;
+	height: 90px;
+	display: block;
+	line-height: 2;
+	top: 80px;
+	background-color: grey;
+}
+.drop-list-3 {
+	position: absolute;
+	left: 780px;
+	width: 150px;
+	height: 120px;
+	display: block;
+	line-height: 2;
+	top: 80px;
+	background-color: grey;
+}
+.abuse-1{
+	color: #ff4d4d;
+}
+.abuse-1:hover {
+	color: red;
+	transition: all .2s ease;
+}
+.a-style {
+	display: block;
+}
+.border {
+	width: 160px;
+	border-top: 1px solid #333;
+}
+#checkbox_toggle {
+	display: none;
+}
+.humburger {
+	display: none;
+	font-size: 24px;
+	cursor: pointer;
+}
+.humburger-line {
+	background-color: #fff;
+	display: block;
+	height: 2px;
+	position: relative;
+	width: 24px;
+}
+.humburger-line::before,
+.humburger-line::after {
+	background-color: #fff;
+	content: "";
+	display: block;
+	position: absolute;
+	transition: all .3s;
+	width: 100%;
+	height: 100%;
+}
+.humburger-line::before {
+	top: 7px;
+}
+.humburger-line::after {
+	top: -7px;
+}
+@media screen and (max-width: 960px) {
+		.nav-list {
+		position: absolute;
+		right: 0px;
+		top: 105px;
+		width: 100px;
+		display: none;
+		background-color: gray;
+		display: none;
+		transition: transform .5s;
+		z-index: 1000;
+	}
+	.nav-list li {
+		height: 30px;
+	}
+	.nav-list a {
+		height: 30px;
+	}
+	.media-burger {
+		height: 30px;
+		display: inline-block;
+	}
+	.div-decor {
+		color: black;
+		font-size: 10px;
+		display: block;
+	}
+	#checkbox_toggle:checked ~ .nav-list{
+		display: block;
+		transition: all .5s;
+	}
+	#checkbox_toggle:checked ~ .humburger .humburger-line {
+		background-color: transparent;
+	}
+	#checkbox_toggle:checked ~ .humburger .humburger-line::before{
+		transform: rotate(-45deg);
+		top: 0;
+	}
+	#checkbox_toggle:checked ~ .humburger .humburger-line::after{
+		transform: rotate(45deg);
+		top: 0;
+	}
+	.humburger {
+		z-index: 2;
+		display: block;
+		padding: 0 20px;
+	}
+}
+@media screen and (max-width: 770px) {
+	.header {
+		height: 100px;
+	}
+	.logo {
+		height: 100px;
+	}
+}
+@media screen and (max-width: 570px) {
+	.form-box { 
+		display: flex;
+		align-items: center;
+		width: 310px;
+	}
+	h2 {
+		font-size: 1.5em;
+		margin-top: 10px;
+	}
+	button {
+		width: 230px;
+		margin: 20px 50px;
+	}
+	.header {
+		height: 70px;
+	}
+	.logo {
+		height: 70px;
+	}
+	.inputbox label {
+		left: 50px;
+	}
+}
